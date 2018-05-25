@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>会员注册</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<div class="wrap-1190 login-head">
+		<a href="javascript:void(0)" class="logo fn-left" title="万企集采" >
+			<img src="images/logo.png" alt="万企集采" />
+		</a>
+		<div class="head-right">
+			<a class="goback" href="./index.html" ><i class="ui-icon icon-loginback"></i>返回继续逛逛</a>
+			<img src="images/head-slogan.jpg" />
+		</div>
+	</div>
+	<div class="login-main">
+		<div class="wrap-1190">
+			<div class="loginmain-left"><img src="images/loginmain-left.jpg" /></div>
+			<div class="loginmain-right">
+				<div class="idlogin login-cont J-logintab J-idlogin">
+					<form id="J-form-login" data-async="false" method="post" action="/account/login">
+						<div class="title"><span>会员登录</span></div>
+						<div class="ui-form-item mb20">
+							<div class="tip"><i class="ui-icon icon-warning"></i>公共场所不建议自动登录，以防账号丢失</div>
+						</div>
+						<div class="ui-form-item  mb20">
+							<i class="ui-icon icon-user input-icon"></i>
+							<input type="text" class="ui-input J-verify J-required" name="loginName" id="loginName" placeholder="用户名/手机/邮箱" data-required-tip="请输入用户名" value="" />
+							<span class="ui-verify fn-right pr30"><i class="icon"></i></span>
+						</div>
+						<div class="ui-form-item mb20">
+							<i class="ui-icon icon-password input-icon"></i>
+							<input type="password" class="ui-input J-verify J-required" name="pwd" id="pwd" placeholder="密码" data-required-tip="请输入密码" />
+							<span class="ui-verify fn-right pr30"><i class="icon"></i></span>
+						</div>
+
+						<div class="ui-form-item mb20">
+							<input type="checkbox" class="isautologin mr15" name="RememberMe"  />
+							<label>两周内免登陆</label>
+						</div>
+						<div class="ui-form-item mb20">
+							<input type="button" class=" btn-login @*J-form-btn-submit*@" id="loginbtn" value="登录"  />
+						</div>
+						<div class="ui-form-item mb20"><span id="errorMsg" style="color:red"></span></div>
+						<div class="ui-form-item mb20">
+							<a class="ui-links" href="regist.html">免费注册</a>
+							<a class="ui-links fn-right" href="###">忘记密码？</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footerbar">
+		<div class="wrap-1190">
+			<!--copyright-->
+			<div>
+				<p>@2009-2020&nbsp; <a href="http://www.miibeian.gov.cn" target="_blank">渝ICP备12002277-5号</a> &nbsp;经营许可证编号:渝B2-20120008&nbsp; 食品流通许可证:SP5009</p>
+				<p>公司地址：重庆市两江新区星光大道软件园海王星E区 订购及售后服务电话: <span class="footer-phone"><i class="ui-icon icon-phone"></i>4000-266-357</span></p>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="libs/jquery.js"></script>
+<script type="text/javascript">
+	$('#loginbtn').on('click',function(){
+		var username = $('#loginName').val();
+		var password = $('#pwd').val();
+		$.ajax({
+			type: "POST",
+			url: "./php/regist.php",
+			data: `username=${username}&password=${password}&type=login`,
+			success: function(msg){
+				if(msg == "登录成功"){
+					window.location.href = './index.html';
+				}else{
+					alert(msg);
+				}
+			}
+		});
+	});
+</script>
+</html>
+

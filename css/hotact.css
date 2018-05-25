@@ -1,0 +1,299 @@
+body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, button, textarea, p, blockquote, table, th, td, menu {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed; }
+
+ul, ol, menu {
+  list-style: none; }
+
+fieldset, img {
+  border: none; }
+
+img, object, select, input, textarea, button {
+  vertical-align: middle; }
+
+input, textarea, select, address, caption, cite, code, dfn, em, i, b, strong, small, th, var, abbr {
+  font-size: 100%;
+  font-style: normal; }
+
+caption, th {
+  text-align: left; }
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption {
+  display: block; }
+
+code, kbd, pre, samp, tt {
+  font-family: Consolas,"Courier New", Courier, monospace; }
+
+address, cite, dfn, em, var, i {
+  font-style: normal; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none; }
+
+a {
+  color: #666;
+  text-decoration: none;
+  cursor: pointer; }
+  a:link, a:visited, a:active {
+    color: #666; }
+  a:hover, a:focus {
+    color: #e4393c;
+    text-decoration: underline;
+    outline: none; }
+  a, a span, a i, a em, a u, a strong, a b, a p, a img, a ul, a li, a div, a dd, a dt, a dl, a ol, a table, a th, a td, a h1, a h2, a h3, a h4, a h5, a h6, a input, a textarea, a button, a small, a select {
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+
+abbr[title], acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+html {
+  min-width: 990px;
+  overflow-y: scroll; }
+
+body {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5; }
+
+body, button, input, select, textarea {
+  font-family: tahoma,Helvetica, Arial,"\5FAE\8F6F\96C5\9ED1";
+  *font-family: "\5FAE\8F6F\96C5\9ED1"; }
+
+h1 {
+  font-size: 22px; }
+
+h2 {
+  font-size: 20px; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+hr {
+  border: none;
+  height: 1px;
+  background: #e6e6e6; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.tl {
+  text-align: left; }
+
+.tr {
+  text-align: right; }
+
+.tc {
+  text-align: center; }
+
+.cf:before, .cf:after, .web:before, .web:after, .web_:before, .web_:after {
+  content: "";
+  display: table; }
+
+.cf:after, .web:after, .web_:after {
+  clear: both; }
+
+.cf {
+  zoom: 1; }
+
+.web {
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1; }
+
+.web_ {
+  min-width: 990px;
+  width: 100%;
+  zoom: 1; }
+
+.block {
+  display: block; }
+
+.none {
+  display: none; }
+
+.clear {
+  clear: both; }
+
+#shortcut-2014 {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background: #F1F1F1; }
+
+#shortcut-2014 .w {
+  background: #F1F1F1; }
+
+.w {
+  width: 990px;
+  margin: 0 auto; }
+
+#shortcut-2014 li {
+  float: left;
+  height: 30px;
+  padding: 0 2px; }
+
+#shortcut-2014 #ttbar-login {
+  margin-right: 10px; }
+
+#shortcut-2014 li.spacer {
+  width: 1px;
+  height: 12px;
+  margin-top: 9px;
+  padding: 0;
+  background: #ddd;
+  overflow: hidden; }
+
+#shortcut-2014 #ttbar-apps .dt .ci-left {
+  top: 5px;
+  left: 7px;
+  width: 15px;
+  height: 20px;
+  background: url("//misc.360buyimg.com/jdf/1.0.0/unit/globalImages/1.0.0/jd2015img.png") 0 0 no-repeat; }
+
+.cw-icon .i, .cw-icon i {
+  display: block;
+  position: absolute;
+  overflow: hidden; }
+
+#shortcut-2014 li.dorpdown {
+  z-index: 13; }
+
+.dorpdown {
+  position: relative; }
+
+#shortcut-2014 .dt {
+  float: left;
+  padding: 0 8px; }
+
+#ttbar-myjd .dt {
+  width: 49px;
+  padding-right: 25px; }
+
+#ttbar-myjd .dt {
+  width: 49px;
+  padding-right: 25px; }
+
+#shortcut-2014 #ttbar-apps .dt {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+#shortcut-2014 .ci-right s {
+  position: relative;
+  top: -8px;
+  text-decoration: none;
+  font-family: simsun; }
+
+#shortcut-2014 .ci-right {
+  top: 12px;
+  right: 8px;
+  height: 7px;
+  overflow: hidden;
+  font: 400 15px/15px consolas;
+  color: #6A6A6A; }
+
+#shortcut-2014 #ttbar-atte .dt, #shortcut-2014 #ttbar-serv .dt {
+  width: 49px;
+  padding-right: 25px; }
+
+#shortcut-2014 #ttbar-navs .dt {
+  width: 49px;
+  padding-right: 25px; }
+
+#categorys-2014 {
+  float: left;
+  position: relative;
+  z-index: 10;
+  width: 210px;
+  height: 44px;
+  overflow: visible;
+  background: #B1191A; }
+
+#categorys-2014 .dt a {
+  display: block;
+  width: 190px;
+  height: 44px;
+  padding: 0 10px;
+  background: #B1191A;
+  font: 400 15px/44px "microsoft yahei";
+  color: #fff;
+  text-decoration: none; }
+
+#categorys-2014 .dt s {
+  position: relative;
+  top: -9px;
+  text-decoration: none; }
+
+#categorys-2014 .dt .ci-right {
+  top: 20px;
+  right: 7px;
+  height: 7px;
+  overflow: hidden;
+  font: 700 20px/16px simsun;
+  color: #fff;
+  transition: transform .1s ease-in 0s;
+  -webkit-transition: -webkit-transform .1s ease-in 0s;
+  display: block;
+  position: absolute; }
+
+#navitems-group1, #navitems-group2 {
+  float: left; }
+  #navitems-group1 li, #navitems-group2 li {
+    float: left; }
+
+#navitems-2014 a {
+  height: 44px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 44px;
+  font-weight: 400;
+  color: #333; }
+
+#nav-2014 {
+  height: 44px;
+  border-bottom: 2px solid #B1191A; }
+
+.d-layout {
+  margin-top: 10px;
+  overflow: hidden;
+  clear: both;
+  width: 990px;
+  margin: 0 auto;
+  position: relative; }
+
+.userdefined-153704 .j-module {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }

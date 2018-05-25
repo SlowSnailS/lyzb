@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/pro.css">
+</head>
+<body>
+	<div class="topbar clear">
+		<div class="wrap-bar clear">
+			<div class="dropdown deliver f-left">
+				<a href="javascript:;" class="btn-arrow">
+					<i class="ui-icon icon-deliver"></i>
+					<label>送至：</label><span class="deliver-city">北京</span>
+					<i class="ui-icon icon-downg"></i>
+				</a>
+				<div class="dropdowncont" id="J-dropmenu-deliver">
+					<p class="title">请选择所在收货地区</p>
+					<div class="dropdowncont-item hot-city clear"><label class="hot"><i class="ui-icon icon-hotcity"></i>热门省市</label><span class="active">北京</span><span>上海</span><span>天津</span><span>重庆</span><span>浙江省</span><span>宁夏区</span><span>山东省</span><span>四川省</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">华东：</label><span>上海</span><span>山东省</span><span>江西省</span><span>浙江省</span><span>江苏省</span><span>安徽省</span><span>福建省</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">华南：</label><span>广东省</span><span>海南区</span><span>广西区</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">华北：</label><span>北京</span><span>天津</span><span>河北省</span><span>山西省</span><span>内蒙古区</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">华中：</label><span>湖北省</span><span>湖南省</span><span>河南省</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">东北：</label><span>辽宁省</span><span>吉林省</span><span>黑龙江省</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">西南：</label><span>重庆</span><span>四川省</span><span>云南省</span><span>贵州省</span><span>西藏区</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">西北：</label><span>陕西省</span><span>甘肃省</span><span>宁夏区</span><span>青海省</span><span>新疆区</span></div>					
+				</div>
+			</div>
+			<div class="f-left">
+				<a class="login" href="###" title="登录">登录</a>
+				<span class="fc-ddd">|</span>
+				<a class="regist" href="/Account/Regist/" title="注册">注册</a>
+			</div>
+			<div class="order f-left">
+				<a href="###" class="myorder" title="我的订单">
+					<i class="ui-icon icon-order" data-active="icon-order-active"></i>
+					我的订单
+				</a>
+			</div>
+			<div class="collectus f-left">
+				<a href="javascript:void(0)" class="coll po-rel" title="收藏本站" id="fav">
+					<i class="ui-icon icon-collect" data-active="icon-collect-active"></i>
+					收藏本站（Ctrl+D）
+				</a>
+			</div>
+			<div class="shopsCentre f-right" data-trigger="#J-dropmenu-shops" data-current="curr">
+				<a class="shop po-rel" href="###">
+					商家中心<i class="ui-icon icon-shops"></i>
+				</a>
+			</div>
+			<div class="f-right">
+			    <a class="po-rel exchange" title="我要兑换" target="_blank" href="###">
+			        <i class="ui-icon icon-exchange"></i>
+			        我要兑换
+			    </a>
+			</div>
+			<div class="dropdown helpcenter po-rel f-right " data-trigger="#J-dropmenu-helps" data-current="curr">
+			    <a class="btn-arrow" href="javascript:;">
+			        帮助中心<i class="ui-icon icon-downg"></i>
+			    </a>
+			    <div class="dropdowncont" id="J-dropmenu-helps"">
+			        <a class="dropdowncont-item clear" href="/help/2746284513.html" target="_blank"><span>售后服务</span></a>
+			        <a class="dropdowncont-item clear" href="/wqjc/" target="_blank"><span>会员介绍</span></a>
+			        <a class="dropdowncont-item clear" href="/help/6630281781.html" target="_blank"><span>支付方式</span></a>
+			    </div>
+			</div>
+			<div class="dropdown phoneapp po-rel f-right" data-trigger="#J-dropmenu-phones" data-current="curr">
+				<a class="btn-arrow" href="javascript:;">
+					手机APP<i class="ui-icon icon-phoneapp" data-active="icon-phoneapp-active"></i>
+				</a>
+				<div class="dropdowncont" id="J-dropmenu-phones" ">
+					<div class="dropdowncont-item clear">
+						<div class="item-qrcode">
+							<img src="images/qrcode-1.jpg" style="height:75px;width:75px" />
+						</div>
+						<div class="item-info">
+							<p>集食惠手机客户端</p>
+							<p class="fc-red">手机下单，更多方便、实惠</p>
+							<div>
+								<img src="images/thumb-iPhone.jpg" />
+								<img src="images/thumb-android.jpg" />
+							</div>
+						</div>
+					</div>
+					<div class="dropdowncont-item last clear">
+						<div class="item-qrcode">
+							<img src="images/qrcode-2.jpg" />
+						</div>
+						<div class="item-info">
+							<p>集食惠手机网页版</p>
+							<p class="fc-red">手机下单，更多方便、实惠</p>
+							<div>
+								<img src="images/thumb-iPhone.jpg" />
+								<img src="images/thumb-android.jpg" />
+								<img src="images/thumb-ipad.jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="logo-bar clear" >
+			<div class="headercont" id="J-wrap-menu">
+				<a href="/" class="logo" title="万企集采">
+					<img src="images/logo.png" alt="万企集采" />
+				</a>
+				<div class="searchbox J-input-dropmenu">
+					<div class="clear">
+						<i class="ui-icon icon-search"></i>
+						<input class="ui-input J-input-dropmenu-main" placeholder="搜索"  type="text" id="strText" />
+						<input class="ui-btn" value="搜索" type="button" id="btnSearch" onclick="search();" />
+					</div>
+					<div class="fn-clear" id="HotSearch">
+					</div>
+				</div>
+				<div class="cartbox J-link-dropmenu" data-trigger="#J-cart-box" data-current="cartbtn-on" id="J-dropmenu1">
+				            <a class="ui-btn-arrow fn-clear cartbtn" href="./ShoppingCart.html" title="我的购物车">
+				                <i class="ui-icon icon-cart fn-left">
+				                    <span class="icon-cartnum" id="spCount">1</span>
+				                </i>
+				                <span class="fn-left ml10" data-trigger="#J-cart-box" data-current="cartbtn-on">我的购物车</span>
+				                <i class="ui-icon icon-arrowsright fn-right"></i>
+				            </a>
+				            <div class="cartxbox" id="J-cart-box" style="display: none;">
+				            	<ul class="ui-repeater" id="list">
+				            	</ul>
+				                <div class="cartxbox-balance">
+				                    <div class="cartxbox-total">共<span class="fn-rmb" id="spCount2">1</span>件商品 &nbsp; 共计&nbsp;<span class="fn-rmb" style="color:red;" id="spTotal">￥  28.9</span></div>
+				                    <div class="fn-clear">
+				                        <a class="ui-btn fn-right" href="./ShoppingCart.html">去购物车</a>
+				                    </div>
+				                </div>
+				            </div>
+				            <!-- 购物车为空 -->
+				            <div class="cartxbox" id="J-cart-box1" style="display:none">
+				                <div class="cartxbox-none">
+				                    <i class="ui-icon icon-cartnone"></i>
+				                    <p>您的购物车还空着呢</p>
+				                </div>
+				            </div>
+				</div>
+			</div>
+		</div>
+		<div class="menu new_menu">
+			<div class="wrap-1190">
+				<ul class="ui-nav clear">
+					<li class="ui-nav-item-first">
+						<a href="###" class="dropbtn">全部商品分类</a>
+					</li>
+					<li class="ui-nav-item">
+						<a href="/Home/Index" class="active" id="a-firstPage" target="_blank" title="首页">首页</a>
+					</li>
+					<li class="ui-nav-item">
+						<a href="/prolist.html" id="a-all" title="所有商品">所有商品</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<div class="x-wrap">
+		<div class="x-wrap-1200">
+			<div class="x-area">
+				<i class="x-s-icon x-icon-home float-left"></i>
+				<a class="" href="/" title="首页" target="_blank">
+					首页
+				</a>
+				<span>></span><a href="/pro24061.html" title="蟹稻家2.5kg精致人文纸袋装免淘盘锦碱地蟹田大米寿司米珍珠米" target="_blank">蟹稻家2.5kg精致人文纸袋装免淘盘锦碱地蟹田大米寿司米珍珠米</a>
+			</div>
+			<div class="x-product clear">
+				<div class="x-product-img float-left">
+
+					<div class="x-pro-preview">
+
+						<div class="small-img x-small-img clear">
+
+							<img src="http://lyzbjbx.oss-cn-hangzhou.aliyuncs.com/lyzbjbxgo/shop/1132/gallery/2018/05/17/15265442065681.jpg" style="float: right;" data-loading="http://lyzbjbx.oss-cn-hangzhou.aliyuncs.com/lyzbjbxgo/shop/1132/gallery/2018/05/17/15265442065681.jpg" alt="蟹稻家2.5kg精致人文纸袋装免淘盘锦碱地蟹田大米寿司米珍珠米" />
+							<div class="x-zoom-box"></div>
+						</div>
+					</div>
+					<div class="breviary-bar">
+						<div class="breviary-img">
+							<ul class="clear">
+								<li>
+									<a href="javascript:;">
+										<img src=http://lyzbjbx.oss-cn-hangzhou.aliyuncs.com/lyzbjbxgo/shop/1132/gallery/2018/05/17/15265442065681.jpg  alt="蟹稻家2.5kg精致人文纸袋装免淘盘锦碱地蟹田大米寿司米珍珠米" />
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="breviary-btn">
+							<a class="btn-prev" href="javascript:;"><i class="x-s-icon"></i></a>
+							<a class="btn-next" href="javascript:;"><i class="x-s-icon"></i></a>
+						</div>
+					</div>
+					<div class="x-user-handle">
+						<div class="x-share-bar float-left">
+							<a class="x-share"><i class="x-u-icon"></i>分享</a>
+							<div class="jiathis_style_24x24 x-share-link">
+								<a class="jiathis_button_weixin"></a>
+								<a class="jiathis_button_tsina"></a>
+								<a class="jiathis_button_qzone"></a>
+								<a class="jiathis_button_cqq"></a>
+								<a class="jiathis_button_tqq"></a>
+							</div>
+							<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+						</div>
+						<a class="x-collect float-left " data-cid="24061" alt="收藏商品">
+							<i class="x-u-icon"></i>
+							收藏
+						</a>
+					</div>
+				</div>
+				<div class="x-product-intro float-right">
+					<div class="x-intro-left float-left">
+						<div class="x-product-name">
+							<h2 class="title t-ellipsis">
+							蟹稻家2.5kg精致人文纸袋装免淘盘锦碱地蟹田大米寿司米珍珠米                            </h2>
+						</div>
+						<div class="x-product-information">
+							<div class="x-product-price">
+								<ul class="x-detail-list clear">
+									<li class="x-bigger-item">
+										<div class="x-t">价　　格</div>
+										<div class="x-c">
+											<span class="x-price-new">￥28.90</span>
+
+											<span class="x-price-old">￥32.90</span>
+											<span class="x-price-tips">销售价</span>
+
+										</div>
+									</li>
+									<li style="padding-left: 23px !important;">
+										<label style="color: #D42B2E; ">元宝最高抵扣: &yen;2</label>
+									</li>
+								</ul>
+							</div>
+							<div class="x-product-text">
+								<ul class="x-detail-list clear">
+									<li>
+										<div class="x-t">销　　量</div>
+
+										<div class="x-c">已售出<span class="f-red">2</span>件</div>
+									</li>
+									<li style="z-index: 10;">
+										<div class="x-t">配&nbsp;&nbsp;送&nbsp;&nbsp;至</div>
+										<div class="x-c">
+											<div class="x-arrive-area float-left">
+												<span>重庆 重庆市 渝北区</span>
+												<i class="x-u-icon"></i>
+											</div>
+											<span id="txtDeliveryAreaPrompt" class="f-red">有货</span>
+										</div>
+									</li>
+									<li>
+										<div class="x-t">运　　费</div>
+										<div class="x-c">
+											<span id="freight">￥0.00</span>
+										</div>
+									</li>
+
+								</ul>
+							</div>
+
+							<div class="x-product-text none-border">
+								<ul class="x-detail-list clear" id="attr_div">
+									<li class="x-item-40"><div class="x-t">数量</div><div class="x-c"><div class="x-count-bar"><label class="x-count-input"><input type="text" value="1" id="buyTotalNum"></label><label class="x-count-btn"><a class="x-add" href="javascript:;">+</a><a class="x-cut" href="javascript:;">-</a></label></div></div>
+									</li>
+								</ul>
+							</div>
+							<div class="x-product-btn">
+								<a class="buy-btn active" href="javascript:;" id="buy-btn"><i class="x-u-icon"></i>立即购买</a>
+								<a class="car-btn active" href="javascript:;" id="car-btn"><i class="x-u-icon"></i>加入购物车</a>
+							</div>
+						</div>
+					</div>
+					<div class="x-intro-right float-left">
+						<div class="x-store-bar">
+							<h2 class="x-store-name">辽宁省盘锦市大洼县01仓直供店</h2>
+
+							<a class="x-store-btn" href="/Product/StoresProductList?SupplierID=1132"><i class="x-s-icon"></i>进店逛逛</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="x-container mar-t10 clear">
+				<div class="x-container-left float-left">
+					<div class="x-module">
+
+					</div>
+				</div>
+				<div class="x-container-right float-right">
+					<div class="x-info-bar">
+						<ul class="x-tab-menu">
+							<li class="active"><a href="javascript:;">商品介绍</a></li>
+							<li class=""><a href="javascript:;">支付及配送范围</a></li>
+							<li class=""><a href="javascript:;">售后保障</a></li>
+						</ul>
+						<div class="x-tab-cont">
+							<div class="x-tab-item" style="display: block">
+								<ul class="x-info-list clear">
+									<li class="x-info-item">
+										<div class="x-hd">商品名称：</div>
+										<div class="x-bd t-ellipsis">蟹稻家2.5kg精致人文纸袋装免淘盘锦碱地蟹田大米寿司米珍珠米</div>
+									</li>
+									<li class="x-info-item">
+
+									</li>
+								</ul>
+								<div class="x-product-details mar-t10">
+									<div align="center">
+										<img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266295658362.jpg" alt="" width="790" height="285" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266300971487.jpg" alt="" width="790" height="1268" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266301108568.jpg" alt="" width="790" height="682" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266301174655.jpg" alt="" width="790" height="682" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266301261397.jpg" alt="" width="790" height="880" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266301343938.jpg" alt="" width="790" height="879" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266301517393.jpg" alt="" width="790" height="815" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266301769494.jpg" alt="" width="790" height="814" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266301857368.jpg" alt="" width="790" height="787" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266301947819.jpg" alt="" width="790" height="787" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266302022764.jpg" alt="" width="790" height="653" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266302103519.jpg" alt="" width="790" height="652" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266302172319.jpg" alt="" width="790" height="1073" /><img src="http://lyzbimage.jbxgo.com/lyzbjbxgo/shop/1132/images/2018/05/18/15266302246832.jpg" alt="" width="790" height="1010" /><br />
+									</div>                                </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+	    <div class="wrap-1198 text">
+	        <div class="footer mt20" id="footer">
+	            <div class="assure" style="width:100%;float:left;">
+	                <div class="wrap-1190">
+	                </div>
+	            </div>
+	            <div class="wrap-1190">
+	                <div class="fn-clear">
+	                    <div class="footer-menu fn-clear" id="footermenu">
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="footerbar">
+	            <div class="wrap-1190">
+
+	                <div class="sitelink">
+	                    <ul class="fn-clear">
+	                        <li class="first"><a href="http://www.lyzb.cn/AboutUs/About" target="_blank">关于我们</a></li>
+	                        <li><a href="http://www.lyzb.cn/ContactUs/contact" target="_blank">联系我们</a></li>
+	                        <li><a href="http://www.li63.com" target="_blank">送礼网</a></li>
+	                        <li><a href="http://www.li63.net" target="_blank">兑换册</a></li>
+
+	                        <li><a href="http://www.lyzb.com/ygzh/" target="_blank">集采账号介绍</a></li>
+	                        <li><a href="http://www.lyzb.com/wqjc/" target="_blank">万企集采.企业会员介绍</a></li>
+	                    </ul>
+	                </div>
+	                <!--copyright-->
+	                <div>
+	                    <p><img src="./Content/images/copyright.jpg" style="width:10px;height:10px;margin-top:7px;margin-right:2px">2016&nbsp; <a href="http://www.miibeian.gov.cn" target="_blank">渝ICP备12002277-5号</a>  &nbsp;经营许可证编号:渝B2-20120008&nbsp; 食品流通许可证:SP5009031110004929</p>
+	                    <p>公司地址：重庆市两江新区星光大道软件园海王星E区 订购及售后服务电话: <span class="footer-phone"><i class="ui-icon icon-phone"></i>4000-266-357</span></p>
+	                </div>
+	                <!--企业信用-->
+	                <div class="enterpriseCredit">
+	                    <ul>
+
+	                        <li>
+	                            <a href="http://webscan.360.cn/index/checkwebsite/url/www.lyzb.com" target="_blank">
+	                                <img src="./global/images/Certificate/360Icon.jpg" />
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <a key="55e020bdefbfb0241247c916" logo_size="124x47" logo_type="business" href="http://www.anquan.org" target="_blank">
+	                                <script src="//static.anquan.org/static/outer/js/aq_auth.js"></script>
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <a kx_type="缩放式" target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e15090250011260201puz4000000&amp;ct=df&amp;a=1&amp;pa=0.380624871428471">
+	                                <img src="./global/images/footer-believe.jpg" style=" height: 42px;">
+	                            </a>
+	                        </li>  <!--可信网站-->
+
+	                        <li>
+	                            <a href="http://www.315online.com.cn/member/315150020.html" target="_blank">
+	                                <img src="./global/images/315new.gif">
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <a href="http://beian.cqwa.gov.cn/open/showRecord?id=50011202300289" target="_blank">
+	                                <img src="./global/images/gf_04.gif" style="margin-top: 0px;">
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <a href="http://www.cqgseb.cn" target="_blank">
+	                                <img width="52" height="68" src="./global/images/gswjimg.png" style="margin-top: 0px;">
+	                            </a>
+	                        </li>
+	                        <li>
+	                            <div style="width:300px;margin:0 auto; padding:20px 0;">
+	                                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50019002500438" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+	                                    <img src="./global/images/KeeponrecordIcon.png" style="float:left;margin-top:-1px" />
+	                                    <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">渝公网安备 50019002500438号</p>
+	                                </a>
+	                            </div>
+
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</body>
+<!-- <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/pro.js"></script>
+<script type="text/javascript">
+</script> -->
+<script type="text/javascript" src="libs/require.js"></script>
+<script type="text/javascript">
+require(['./libs/require.config'],function(){
+	require(['common','pro'])
+})
+</script>
+</html>

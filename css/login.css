@@ -1,0 +1,178 @@
+.login-head {
+    height: 110px;
+}
+.wrap-1190 {
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.login-head .head-right {
+    float: right;
+    margin: 20px;
+    width: 600px;
+}
+.login-head .head-right .goback {
+    position: relative;
+    float: right;
+    display: block;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+.login-head .head-right .goback .icon-loginback {
+    left: -24px;
+    top: 2px;
+}
+.icon-loginback {
+    width: 16px;
+    height: 18px;
+    background-position: -480px -96px;
+}
+.ui-icon {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    background: url(../images/ui-icon.png) no-repeat 0 0;
+    font-style: normal;
+}
+.login-main {
+    width: 100%;
+    height: 580px;
+    background-color: #fe4c4c;
+}
+.wrap-1190 {
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.login-main .loginmain-left {
+    float: left;
+    width: 830px;
+    overflow: hidden;
+}
+.login-main .loginmain-right {
+    float: left;
+    width: 360px;
+    height: 580px;
+    overflow: hidden;
+}
+.login-main .loginmain-right .idlogin {
+    position: absolute;
+    top: 50%;
+    width: 360px;
+    height: auto;
+    color: #666;
+    background-color: #ffeded;
+    zoom: 1;
+    margin-top: -200px;
+}
+.login-main .loginmain-right .login-cont .title {
+    padding-left: 30px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px;
+}
+.login-main .loginmain-right .login-cont .ui-form-item {
+    position: relative;
+    width: auto;
+    font-size: 12px;
+    font-family: 宋体;
+    margin: 0px 30px;
+}
+.login-main .loginmain-right .login-cont .mb20 {
+    margin-bottom: 20px;
+}
+.login-main .loginmain-right .login-cont .ui-form-item .tip {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    background-color: #ffe2e2;
+}
+.login-main .loginmain-right .login-cont .ui-form-item .tip .icon-warning {
+    position: relative;
+    float: left;
+    margin: 5px 12px;
+}
+.icon-warning {
+    width: 18px;
+    height: 18px;
+    background-position: -520px -96px;
+}
+.login-main .loginmain-right .login-cont .ui-form-item .input-icon {
+    top: 8px;
+    left: 12px;
+}
+.icon-user {
+    width: 24px;
+    height: 25px;
+    background-position: -400px -128px;
+}
+.login-main .ui-input {
+    width: 258px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    background-color: #fff;
+    float: none;
+    border: 1px solid #e5e5e5;
+    color: #333;
+}
+.login-main .loginmain-right .login-cont .ui-form-item .ui-verify {
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+.pr30 {
+    padding-right: 30px;
+}
+.login-main .loginmain-right .login-cont .ui-form-item .ui-verify .icon {
+    position: relative;
+    margin-right: 10px;
+}
+.icon-password {
+    width: 24px;
+    height: 25px;
+    background-position: -440px -128px;
+}
+.login-main .loginmain-right .login-cont .ui-form-item .isautologin {
+    float: left;
+    margin-top: 2px;
+}
+.mr15 {
+    margin-right: 15px;
+}
+.login-main .loginmain-right .login-cont .ui-form-item .btn-login {
+    padding: 0;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    border: none;
+    color: #fff;
+    background-color: #f63636;
+}
+.fn-right {
+    float: right;
+}
+.icon-loginback {
+    width: 16px;
+    height: 18px;
+    background-position: -480px -96px;
+}
+.login-head .logo {
+    float: left;
+    margin-top: 20px;
+}
+.ui-form-item {
+    color: #666;
+    margin: 5px;
+    padding: 2px;
+    font-size: 12px;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+	color: #999;
+	font-size: 12px;
+	line-height: 18px;
+}

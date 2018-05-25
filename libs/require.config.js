@@ -1,0 +1,14 @@
+requirejs.config({
+    paths:{
+        "jquery":"libs/jquery",
+        "cookie":"libs/jquery.cookie",
+        "index":"js/index",
+        "common":"js/common",
+        "pro":"js/prolist",
+        "pro":"js/pro",
+        "prolist":"js/prolist",
+        "regist":"js/regist",
+        "ShoppingCar":"js/ShoppingCar",
+        "banner":"libs/Jquery.banner"
+    }
+})

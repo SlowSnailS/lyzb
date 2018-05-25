@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/ShoppingCar.css">
+</head>
+<body>
+	<div class="topbar clear">
+		<div class="wrap-bar clear">
+			<div class="dropdown deliver f-left">
+				<a href="javascript:;" class="btn-arrow">
+					<i class="ui-icon icon-deliver"></i>
+					<label>送至：</label><span class="deliver-city">北京</span>
+					<i class="ui-icon icon-downg"></i>
+				</a>
+				<div class="dropdowncont" id="J-dropmenu-deliver">
+					<p class="title">请选择所在收货地区</p>
+					<div class="dropdowncont-item hot-city clear"><label class="hot"><i class="ui-icon icon-hotcity"></i>热门省市</label><span class="active">北京</span><span>上海</span><span>天津</span><span>重庆</span><span>浙江省</span><span>宁夏区</span><span>山东省</span><span>四川省</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">华东：</label><span>上海</span><span>山东省</span><span>江西省</span><span>浙江省</span><span>江苏省</span><span>安徽省</span><span>福建省</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">华南：</label><span>广东省</span><span>海南区</span><span>广西区</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">华北：</label><span>北京</span><span>天津</span><span>河北省</span><span>山西省</span><span>内蒙古区</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">华中：</label><span>湖北省</span><span>湖南省</span><span>河南省</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">东北：</label><span>辽宁省</span><span>吉林省</span><span>黑龙江省</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">西南：</label><span>重庆</span><span>四川省</span><span>云南省</span><span>贵州省</span><span>西藏区</span></div>
+					<div class="dropdowncont-item clear"><label class="letter">西北：</label><span>陕西省</span><span>甘肃省</span><span>宁夏区</span><span>青海省</span><span>新疆区</span></div>
+				</div>
+			</div>
+			<div class="f-left">
+				<a class="login" href="./login.html" title="登录">登录</a>
+				<span class="fc-ddd">|</span>
+				<a class="regist" href="./regist.html" title="注册">注册</a>
+			</div>
+			<div class="order f-left">
+				<a href="###" class="myorder" title="我的订单">
+					<i class="ui-icon icon-order" data-active="icon-order-active"></i>
+					我的订单
+				</a>
+			</div>
+			<div class="collectus f-left">
+				<a href="javascript:void(0)" class="coll po-rel" title="收藏本站" id="fav">
+					<i class="ui-icon icon-collect" data-active="icon-collect-active"></i>
+					收藏本站（Ctrl+D）
+				</a>
+			</div>
+			<div class="shopsCentre f-right" data-trigger="#J-dropmenu-shops" data-current="curr">
+				<a class="shop po-rel" href="###">
+					商家中心<i class="ui-icon icon-shops"></i>
+				</a>
+			</div>
+			<div class="f-right">
+				<a class="po-rel exchange" title="我要兑换" target="_blank" href="###">
+					<i class="ui-icon icon-exchange"></i>
+					我要兑换
+				</a>
+			</div>
+			<div class="dropdown helpcenter po-rel f-right " data-trigger="#J-dropmenu-helps" data-current="curr">
+				<a class="btn-arrow" href="javascript:;">
+					帮助中心<i class="ui-icon icon-downg"></i>
+				</a>
+				<div class="dropdowncont" id="J-dropmenu-helps"">
+					<a class="dropdowncont-item clear" href="/help/2746284513.html" target="_blank"><span>售后服务</span></a>
+					<a class="dropdowncont-item clear" href="/wqjc/" target="_blank"><span>会员介绍</span></a>
+					<a class="dropdowncont-item clear" href="/help/6630281781.html" target="_blank"><span>支付方式</span></a>
+				</div>
+			</div>
+			<div class="dropdown phoneapp po-rel f-right" data-trigger="#J-dropmenu-phones" data-current="curr">
+				<a class="btn-arrow" href="javascript:;">
+					手机APP<i class="ui-icon icon-phoneapp" data-active="icon-phoneapp-active"></i>
+				</a>
+				<div class="dropdowncont" id="J-dropmenu-phones" ">
+					<div class="dropdowncont-item clear">
+						<div class="item-qrcode">
+							<img src="images/qrcode-1.jpg" style="height:75px;width:75px" />
+						</div>
+						<div class="item-info">
+							<p>集食惠手机客户端</p>
+							<p class="fc-red">手机下单，更多方便、实惠</p>
+							<div>
+								<img src="images/thumb-iPhone.jpg" />
+								<img src="images/thumb-android.jpg" />
+							</div>
+						</div>
+					</div>
+					<div class="dropdowncont-item last clear">
+						<div class="item-qrcode">
+							<img src="images/qrcode-2.jpg" />
+						</div>
+						<div class="item-info">
+							<p>集食惠手机网页版</p>
+							<p class="fc-red">手机下单，更多方便、实惠</p>
+							<div>
+								<img src="images/thumb-iPhone.jpg" />
+								<img src="images/thumb-android.jpg" />
+								<img src="images/thumb-ipad.jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content shoppingcart">
+	<div class="wrap-1190">
+		<div class="header">
+			<div class="header-cont clear">
+				<div class="logo" id="J-loginPage">
+
+					<a href="/" class="logo fn-left" title="万企集采">
+						<img src="./images/logo.png" alt="万企集采">
+					</a>
+
+				</div>
+				<ul class="ui-step">
+					<li class="step-first step-first-current">
+						<label class="step-count"></label>
+						<label class="step-txt">我的购物车</label>
+					</li>
+					<li class="step-second">
+						<label class="step-count">2</label><label class="step-txt">确认订单信息</label>
+					</li>
+					<li class="step-fourth">
+						<label class="step-count">3</label><label class="step-txt">提交订单并结算</label>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content shoppingcart" id="J-cont-shoppingcart">
+			<div class="gift-info">
+				<div class="cont-title">我的购物车</div>
+				<div class="gift-info-cont">
+					<table class="ui-grid ui-grid-order">
+						<colgroup>
+							<col width="659">
+							<col width="165">
+							<col width="100">
+							<col width="151">
+							<col width="115">
+						</colgroup>
+						<thead class="ui-grid-hd">
+							<tr>
+								<th class="fn-clear">
+									<input type="checkbox" class="ui-checkbox ui-checkbox-all J-checkbox-all" id="J-checkbox-all" checked="checked" >
+									<label for="J-checkbox-all" class="fn-left">全选</label>
+									商品
+								</th>
+								<th>价格</th>
+								<th>数量</th>
+								<th>小计</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody class="ui-grid-cont" id="list">
+						</tbody>
+						<tfoot class="ui-grid-foot" id="foot">
+							<tr class="tr-placeholder">
+								<td colspan="6"></td>
+							</tr>
+							<tr class="foot">
+								<td colspan="6" class="fn-clear">
+									<input type="checkbox" class="ui-checkbox ui-checkbox-all fn-left ml20 J-checkbox-all" id="J-checkbox-all-bottom" checked="checked" >
+									<label class="fn-left" for="J-checkbox-all-bottom">全选</label>
+									<a href="javascript:;" class="btn-del J-link-del" id="dls" >
+										<i class="icon icon-del"></i>删除选中的商品
+									</a>
+									<a href="./prolist.html" class="btn-reset J-link-reset">
+										<i class="icon icon-reset"></i>返回继续购物
+									</a>
+									<div class="price-all fn-clear" style="float:right;">
+										<form action="/member/CreateOrder/" id="form1" method="post" style="float:right">
+											<a href="javascript:;" class="btn-settlement fn-right" >结算</a>
+											<input name="ids" type="hidden" id="ids">
+										</form>
+										<label class="fc-orange fn-left">共<span id="TotalQty">1</span>件商品</label>
+										<label class="fc-orange fn-left store-price">总计：<span id="TotalPrice">￥28.90</span></label>
+									</div>
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="wrap-1198 text">
+		<div class="footer mt20" id="footer">
+			<div class="assure" style="width:100%;float:left;">
+				<div class="wrap-1190">
+				</div>
+			</div>
+			<div class="wrap-1190">
+				<div class="fn-clear">
+					<div class="footer-menu fn-clear" id="footermenu">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerbar">
+			<div class="wrap-1190">
+
+				<div class="sitelink">
+					<ul class="fn-clear">
+						<li class="first"><a href="http://www.lyzb.cn/AboutUs/About" target="_blank">关于我们</a></li>
+						<li><a href="http://www.lyzb.cn/ContactUs/contact" target="_blank">联系我们</a></li>
+						<li><a href="http://www.li63.com" target="_blank">送礼网</a></li>
+						<li><a href="http://www.li63.net" target="_blank">兑换册</a></li>
+
+						<li><a href="http://www.lyzb.com/ygzh/" target="_blank">集采账号介绍</a></li>
+						<li><a href="http://www.lyzb.com/wqjc/" target="_blank">万企集采.企业会员介绍</a></li>
+					</ul>
+				</div>
+				<!--copyright-->
+				<div>
+					<p><img src="./Content/images/copyright.jpg" style="width:10px;height:10px;margin-top:7px;margin-right:2px">2016&nbsp; <a href="http://www.miibeian.gov.cn" target="_blank">渝ICP备12002277-5号</a>  &nbsp;经营许可证编号:渝B2-20120008&nbsp; 食品流通许可证:SP5009031110004929</p>
+					<p>公司地址：重庆市两江新区星光大道软件园海王星E区 订购及售后服务电话: <span class="footer-phone"><i class="ui-icon icon-phone"></i>4000-266-357</span></p>
+				</div>
+				<!--企业信用-->
+				<div class="enterpriseCredit">
+					<ul>
+
+						<li>
+							<a href="http://webscan.360.cn/index/checkwebsite/url/www.lyzb.com" target="_blank">
+								<img src="./global/images/Certificate/360Icon.jpg" />
+							</a>
+						</li>
+						<li>
+							<a key="55e020bdefbfb0241247c916" logo_size="124x47" logo_type="business" href="http://www.anquan.org" target="_blank">
+								<script src="//static.anquan.org/static/outer/js/aq_auth.js"></script>
+							</a>
+						</li>
+						<li>
+							<a kx_type="缩放式" target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e15090250011260201puz4000000&amp;ct=df&amp;a=1&amp;pa=0.380624871428471">
+								<img src="./global/images/footer-believe.jpg" style=" height: 42px;">
+							</a>
+						</li>  <!--可信网站-->
+
+						<li>
+							<a href="http://www.315online.com.cn/member/315150020.html" target="_blank">
+								<img src="./global/images/315new.gif">
+							</a>
+						</li>
+						<li>
+							<a href="http://beian.cqwa.gov.cn/open/showRecord?id=50011202300289" target="_blank">
+								<img src="./global/images/gf_04.gif" style="margin-top: 0px;">
+							</a>
+						</li>
+						<li>
+							<a href="http://www.cqgseb.cn" target="_blank">
+								<img width="52" height="68" src="./global/images/gswjimg.png" style="margin-top: 0px;">
+							</a>
+						</li>
+						<li>
+							<div style="width:300px;margin:0 auto; padding:20px 0;">
+								<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50019002500438" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+									<img src="./global/images/KeeponrecordIcon.png" style="float:left;margin-top:-1px" />
+									<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">渝公网安备 50019002500438号</p>
+								</a>
+							</div>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<!-- <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/ShoppingCar.js"></script> -->
+<script type="text/javascript" src="libs/require.js"></script>
+<script type="text/javascript">
+require(['./libs/require.config'],function(){
+	require(['common','ShoppingCar'])
+})
+</script>
+</html>
